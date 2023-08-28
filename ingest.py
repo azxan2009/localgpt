@@ -143,7 +143,7 @@ def does_vectorstore_exist(persist_directory: str) -> bool:
 
 def main():
     # Create embeddings
-    print(f"My model name is : {model_name}")
+    #print(f"My model name is : {model_name}")
     print(f"My embedding model name is :{embeddings_model_name}")
     embeddings = HuggingFaceEmbeddings(model_name=embeddings_model_name)
     print(f"value of embedding is :{embeddings}")
